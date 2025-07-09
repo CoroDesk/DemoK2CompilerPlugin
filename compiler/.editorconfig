@@ -1,0 +1,10 @@
+[**/build/**]
+generated_code = true
+ij_formatter_enabled = false
+ktlint = disabled
+
+[*.{kt,kts}]
+ktlint_standard_argument-list-wrapping = disabled
+ktlint_standard_value-argument-list-comment = disabled
+ktlint_standard_value-argument-list = disabled
+ktlint_standard_value-parameter-comment = disabled
