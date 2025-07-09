@@ -15,3 +15,11 @@ Follow these steps:
 1. Run `./gradlew :compiler:publishAllToLocalMaven` to publish the K2 Compiler Plugin and its dependencies to your local Maven. This works successfully. ✅
 2. Run `./gradlew :app:clean :app:compileKotlinJvm` to see the compiler plugin in action. This also works successfully. ✅
 3. Run `./gradlew :app:clean :app:build` to attempt the multiplatform build process. However, this currently fails on iOS targets. ❌
+
+## Demo
+When building a class like this 👇
+<img src=https://github.com/CoroDesk/DemoK2CompilerPlugin/blob/763faaa008572863db72aacb5b77c3e60c447c5b/demo.png >
+
+
+It produces a build output warning like this 👇
+<img src=https://github.com/CoroDesk/DemoK2CompilerPlugin/blob/763faaa008572863db72aacb5b77c3e60c447c5b/output.png  >
